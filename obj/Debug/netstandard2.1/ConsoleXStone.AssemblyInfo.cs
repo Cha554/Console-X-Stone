@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleXStone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1476e87cbe4a9447d346d24d67d05d3472e981e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0edebe45a6004101dfbad1484840279eb027bda5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleXStone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleXStone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

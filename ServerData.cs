@@ -23,7 +23,7 @@ namespace CXS
         public const string GitHubUsername = "Cha554";
         public const string GitHubRepo = "mist.online";
         public const string GitHubBranch = "main";
-        public static readonly string ServerDataEndpoint = $"https://raw.githubusercontent.com/{GitHubUsername}/{GitHubRepo}/refs/heads/{GitHubBranch}/serverdata.json";
+        public static readonly string ServerDataEndpoint = $"https://raw.githubusercontent.com/Cha554/mist.online/refs/heads/main/serverdata.json";
 
         // The dictionary used to assign the admins only seen in your mod.
         public static readonly Dictionary<string, string> LocalAdmins = new Dictionary<string, string>()
@@ -63,15 +63,6 @@ namespace CXS
             if (DataLoadTime > 0f && Time.time > DataLoadTime && GorillaComputer.instance.isConnectedToMaster)
             {
                 DataLoadTime = Time.time + 5f;
-
-                LoadAttempts++;
-                if (LoadAttempts >= 3)
-                {
-                    CXS.Log("Server data could not be loaded");
-                    DataLoadTime = -1f;
-                    return;
-                }
-
                 CXS.Log("Attempting to load web data");
                 instance.StartCoroutine(LoadServerData());
             }
@@ -139,20 +130,14 @@ namespace CXS
             {
                 yield return request.SendWebRequest();
 
-                if (request.result != UnityWebRequest.Result.Success)
-                {
-                    CXS.Log("Failed to load server data: " + request.error);
-                    yield break;
-                }
-
                 string json = request.downloadHandler.text;
+                Debug.Log(json);
                 DataLoadTime = -1f;
 
                 JObject data = JObject.Parse(json);
 
                 string minConsoleVersion = (string)data["min-CXS-version"];
-                if (VersionToNumber(CXS.ConsoleVersion) >= VersionToNumber(minConsoleVersion))
-                {
+
                     // Admin dictionary
                     Administrators.Clear();
 
@@ -178,9 +163,6 @@ namespace CXS
                         GivenAdminMods = true;
                         SetupAdminPanel(administrator);
                     }
-                }
-                else
-                    CXS.Log("On extreme outdated version of CXS, not loading administrators");
             }
 
             yield return null;
