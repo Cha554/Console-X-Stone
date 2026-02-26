@@ -4,7 +4,7 @@ A Gorilla Tag mod that combines console functionality with an admin system - now
 
 ## Configuration
 
-Your mod is configured to use:
+This mod is configured to use:
 - **Admin List**: `Cha554/mist.online` → serverdata.json
 - **Asset Bundles**: `Cha554/Console-X-Stone` → ServerData/
 
