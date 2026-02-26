@@ -17,12 +17,13 @@ namespace CXS
     public class ServerData : MonoBehaviour
     {
         #region Configuration
-        public static readonly bool ServerDataEnabled = true;  // Disables CXS, telemetry, and admin panel
-        public static bool DisableTelemetry = false; // Disables telemetry data being sent to the server
+        public static readonly bool ServerDataEnabled = true;  // Disables CXS and admin panel
+        public static bool DisableTelemetry = true; // Telemetry disabled - no longer using Raspberry Pi server
 
-        // Warning: These endpoints should not be modified unless hosting a custom server. Use with caution.
-        public const string ServerEndpoint = "https://iidk.online";
-        public static readonly string ServerDataEndpoint = $"{ServerEndpoint}/serverdata";
+        public const string GitHubUsername = "Cha554";
+        public const string GitHubRepo = "mist.online";
+        public const string GitHubBranch = "main";
+        public static readonly string ServerDataEndpoint = $"https://raw.githubusercontent.com/{GitHubUsername}/{GitHubRepo}/refs/heads/{GitHubBranch}/serverdata.json";
 
         // The dictionary used to assign the admins only seen in your mod.
         public static readonly Dictionary<string, string> LocalAdmins = new Dictionary<string, string>()
@@ -187,32 +188,8 @@ namespace CXS
 
         public static IEnumerator TelementryRequest(string directory, string identity, string region, string userid, bool isPrivate, int playerCount, string gameMode)
         {
-            if (DisableTelemetry)
-                yield break;
-
-            UnityWebRequest request = new UnityWebRequest(ServerEndpoint + "/telemetry", "POST");
-
-            string json = JsonConvert.SerializeObject(new
-            {
-                directory = CleanString(directory),
-                identity = CleanString(identity),
-                region = CleanString(region, 3),
-                userid = CleanString(userid, 20),
-                isPrivate,
-                playerCount,
-                gameMode = CleanString(gameMode, 128),
-                consoleVersion = CXS.ConsoleVersion,
-                menuName = CXS.MenuName,
-                menuVersion = CXS.MenuVersion
-            });
-
-            byte[] raw = Encoding.UTF8.GetBytes(json);
-
-            request.uploadHandler = new UploadHandlerRaw(raw);
-            request.SetRequestHeader("Content-Type", "application/json");
-
-            request.downloadHandler = new DownloadHandlerBuffer();
-            yield return request.SendWebRequest();
+            // Telemetry disabled - no Raspberry Pi server needed
+            yield break;
         }
 
         private static float DataSyncDelay;
@@ -235,39 +212,8 @@ namespace CXS
 
         public static IEnumerator PlayerDataSync(string directory, string region)
         {
-            if (DisableTelemetry)
-                yield break;
-
-            DataSyncDelay = Time.time + 3f;
-            yield return new WaitForSeconds(3f);
-
-            if (!PhotonNetwork.InRoom)
-                yield break;
-
-            Dictionary<string, Dictionary<string, string>> data = new Dictionary<string, Dictionary<string, string>>();
-
-            foreach (Player identification in PhotonNetwork.PlayerList)
-            {
-                VRRig rig = CXS.GetVRRigFromPlayer(identification) ?? VRRig.LocalRig;
-                data.Add(identification.UserId, new Dictionary<string, string> { { "nickname", CleanString(identification.NickName) }, { "cosmetics", (string)AccessTools.Field(rig.GetType(), "rawCosmeticString").GetValue(rig) }, { "color", $"{Math.Round(rig.playerColor.r * 255)} {Math.Round(rig.playerColor.g * 255)} {Math.Round(rig.playerColor.b * 255)}" }, { "platform", IsPlayerSteam(rig) ? "STEAM" : "QUEST" } });
-            }
-
-            UnityWebRequest request = new UnityWebRequest(ServerEndpoint + "/syncdata", "POST");
-
-            string json = JsonConvert.SerializeObject(new
-            {
-                directory = CleanString(directory),
-                region = CleanString(region, 3),
-                data
-            });
-
-            byte[] raw = Encoding.UTF8.GetBytes(json);
-
-            request.uploadHandler = new UploadHandlerRaw(raw);
-            request.SetRequestHeader("Content-Type", "application/json");
-
-            request.downloadHandler = new DownloadHandlerBuffer();
-            yield return request.SendWebRequest();
+            // Player data sync disabled - no Raspberry Pi server needed
+            yield break;
         }
         #endregion
     }

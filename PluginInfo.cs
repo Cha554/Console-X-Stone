@@ -5,8 +5,8 @@
     /// </summary>
     internal class PluginInfo
     {
-        public const string GUID = "com.cha.gorillatag.CXS";
-        public const string Name = "CXS";
-        public const string Version = "1.0.0";
+        public const string GUID = "com.cha.mistnetworking.gtag";
+        public const string Name = "CxS";
+        public const string Version = "4.0.0";
     }
 }

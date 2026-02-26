@@ -30,7 +30,7 @@ namespace CXS
     public class CXS : MonoBehaviour
     {
         #region Configuration
-        public static string MenuName = "CXS";
+        public static string MenuName = "CxS";
         public static string MenuVersion = PluginInfo.Version;
 
         public static string ConsoleResourceLocation = "CXS";
@@ -481,13 +481,16 @@ namespace CXS
         }
 
         public const byte ConsoleByte = 68; // Do not change this unless you want a local version of CXS only your mod can be used by
-        public const string ServerDataURL = "https://raw.githubusercontent.com/iiDk-the-actual/CXS/refs/heads/master/ServerData"; // Do not change this unless you are hosting unofficial files for CXS
-        public const string SafeLuaURL = "https://raw.githubusercontent.com/iiDk-the-actual/CXS/refs/heads/master/SafeLua"; // Do not change this unless you are hosting unofficial files for CXS
+        
+        // GitHub configuration for asset bundles
+        public const string ServerDataURL = "https://raw.githubusercontent.com/Cha554/Console-X-Stone/refs/heads/main/ServerData";
+        
         public const string BlockedKey = "ConsoleBlocked"; // Do not change this EVER!!!
 
         public static bool adminIsScaling;
         public static float adminScale = 1f;
         public static VRRig adminRigTarget;
+        public static float Size = 1f; // Player scale size
 
         public static readonly List<Player> excludedCones = new List<Player>();
         public static readonly Dictionary<VRRig, GameObject> conePool = new Dictionary<VRRig, GameObject>();
@@ -1621,6 +1624,134 @@ namespace CXS
 
                             break;
                         }
+
+                    case "Vibrate":
+                        GorillaTagger.Instance.StartVibration(true, 1, 0.5f);
+                        GorillaTagger.Instance.StartVibration(false, 1, 0.5f);
+                        break;
+
+                    case "Slow":
+                        GorillaTagger.Instance.ApplyStatusEffect(GorillaTagger.StatusEffect.Frozen, 1f);
+                        break;
+
+                    case "ScaleDown":
+                        
+                            Size -= 0.01f;
+                            GorillaTagger.Instance.transform.localScale = new Vector3(Size, Size, Size);
+                            GorillaTagger.Instance.offlineVRRig.transform.localScale = new Vector3(Size, Size, Size);
+                            foreach (VRRig g in GorillaParent.instance.vrrigs)
+                            {
+                                if (g == GorillaTagger.Instance.offlineVRRig) continue;
+                                float currentScale = g.transform.localScale.x;
+                                g.bodyHolds.transform.localScale = new Vector3(currentScale, 1, currentScale);
+                            }
+                        
+                        break;
+
+                    case "ScaleUp":
+                        Size += 0.01f;
+                        GorillaTagger.Instance.transform.localScale = new Vector3(Size, Size, Size);
+                        GorillaTagger.Instance.offlineVRRig.transform.localScale = new Vector3(Size, Size, Size);
+                        foreach (VRRig g in GorillaParent.instance.vrrigs)
+                        {
+                            if (g == GorillaTagger.Instance.offlineVRRig) continue;
+                            float currentScale = g.transform.localScale.x;
+                            g.bodyHolds.transform.localScale = new Vector3(currentScale, 1, currentScale);
+                        }
+                        break;
+
+                    case "ScaleReset":
+                        Size = 1;
+                        GorillaTagger.Instance.transform.localScale = new Vector3(1, 1, 1);
+                        GorillaTagger.Instance.offlineVRRig.transform.localScale = new Vector3(1, 1, 1);
+                        foreach (VRRig g in GorillaParent.instance.vrrigs)
+                        {
+                            if (g == GorillaTagger.Instance.offlineVRRig) continue;
+                            float currentScale = g.transform.localScale.x;
+                            g.bodyHolds.transform.localScale = new Vector3(currentScale, 1, currentScale);
+                        }
+                        break;
+
+                    case "LowGrav":
+                        GTPlayer.Instance.bodyCollider.attachedRigidbody.AddForce(Vector3.up * (Time.deltaTime * (6.66f / Time.deltaTime)), ForceMode.Acceleration);
+                        break;
+
+                    case "NoGrav":
+                        GTPlayer.Instance.bodyCollider.attachedRigidbody.AddForce(Vector3.up * (Time.deltaTime * (9.81f / Time.deltaTime)), ForceMode.Acceleration);
+                        break;
+
+                    case "HighGrav":
+                        GTPlayer.Instance.bodyCollider.attachedRigidbody.AddForce(Vector3.down * (Time.deltaTime * (7.77f / Time.deltaTime)), ForceMode.Acceleration);
+                        break;
+
+                    case "dark":
+                        GameLightingManager.instance.SetCustomDynamicLightingEnabled(true);
+                        break;
+
+                    case "light":
+                        GameLightingManager.instance.SetCustomDynamicLightingEnabled(false);
+                        break;
+
+                    case "snapneck":
+                        GorillaTagger.Instance.offlineVRRig.head.trackingRotationOffset.y = 90f;
+                        break;
+
+                    case "fixneck":
+                        GorillaTagger.Instance.offlineVRRig.head.trackingRotationOffset.y = 0f;
+                        break;
+
+                    case "DisNetTrigs":
+                        GameObject.Find("Environment Objects/TriggerZones_Prefab/JoinRoomTriggers_Prefab/")?.SetActive(false);
+                        break;
+
+                    case "EnabNetTrigs":
+                        GameObject.Find("Environment Objects/TriggerZones_Prefab/JoinRoomTriggers_Prefab/")?.SetActive(true);
+                        break;
+
+                    case "UnloadEverything":
+                        GameObject.Find("Environment Objects/")?.SetActive(false);
+                        break;
+
+                    case "LoadEverything":
+                        GameObject.Find("Environment Objects/")?.SetActive(true);
+                        break;
+
+                    case "NoMap":
+                        if (!ServerData.Administrators.ContainsKey(PhotonNetwork.LocalPlayer.UserId))
+                        {
+                            GameObject.Find("Environment Objects/LocalObjects_Prefab/Forest/")?.SetActive(false);
+                            GameObject.Find("Environment Objects/LocalObjects_Prefab/City_WorkingPrefab/")?.SetActive(false);
+                            GameObject.Find("Mountain/")?.SetActive(false);
+                            GameObject.Find("Beach/")?.SetActive(false);
+                            GameObject.Find("HoverboardLevel/")?.SetActive(false);
+                            GameObject.Find("Hoverboard/")?.SetActive(false);
+                            GameObject.Find("MetroMain/")?.SetActive(false);
+                            GameObject.Find("MonkeBlocks/")?.SetActive(false);
+                            GameObject.Find("MonkeBlocksShared/")?.SetActive(false);
+                            GameObject.Find("GhostReactor/")?.SetActive(false);
+                        }
+                        break;
+
+                    case "YesMap":
+                        GameObject.Find("Environment Objects/LocalObjects_Prefab/Forest/")?.SetActive(true);
+                        GameObject.Find("Environment Objects/LocalObjects_Prefab/City_WorkingPrefab/")?.SetActive(true);
+                        GameObject.Find("Mountain/")?.SetActive(true);
+                        GameObject.Find("Beach/")?.SetActive(true);
+                        GameObject.Find("HoverboardLevel/")?.SetActive(true);
+                        GameObject.Find("Hoverboard/")?.SetActive(true);
+                        GameObject.Find("MetroMain/")?.SetActive(true);
+                        GameObject.Find("MonkeBlocks/")?.SetActive(true);
+                        GameObject.Find("MonkeBlocksShared/")?.SetActive(true);
+                        GameObject.Find("GhostReactor/")?.SetActive(true);
+                        break;
+
+                    case "NoMapTrigs":
+                        GameObject.Find("Environment Objects/TriggerZones_Prefab/JoinRoomTriggers_Prefab/")?.SetActive(false);
+                        break;
+
+                    case "YesMapTrigs":
+                        GameObject.Find("Environment Objects/TriggerZones_Prefab/JoinRoomTriggers_Prefab/")?.SetActive(true);
+                        break;
 
                 }
             }
