@@ -34,6 +34,7 @@ namespace CXS
         public static string MenuVersion = PluginInfo.Version;
 
         public static string ConsoleResourceLocation = "CXS";
+        public static string ConsoleVioletIcon = $"{ServerDataURL}/violet.png";
         public static string ConsoleSuperAdminIcon = $"{ServerDataURL}/icon.png";
         public static string ConsoleAdminIcon = $"{ServerDataURL}/crown.png";
 
@@ -354,6 +355,55 @@ namespace CXS
         public static IEnumerator DownloadAdminTextures()
         {
             {
+                string fileName = $"{ConsoleResourceLocation}/violet.png";
+
+                if (File.Exists(fileName))
+                    File.Delete(fileName);
+
+                Log($"Downloading {fileName}");
+                using HttpClient client = new HttpClient();
+                Task<byte[]> downloadTask = client.GetByteArrayAsync(ConsoleVioletIcon);
+
+                while (!downloadTask.IsCompleted)
+                    yield return null;
+
+                if (downloadTask.Exception != null)
+                {
+                    Log("Failed to download texture: " + downloadTask.Exception);
+                    yield break;
+                }
+
+                byte[] downloadedData = downloadTask.Result;
+                Task writeTask = File.WriteAllBytesAsync(fileName, downloadedData);
+
+                while (!writeTask.IsCompleted)
+                    yield return null;
+
+                if (writeTask.Exception != null)
+                {
+                    Log("Failed to save texture: " + writeTask.Exception);
+                    yield break;
+                }
+
+                Task<byte[]> readTask = File.ReadAllBytesAsync(fileName);
+                while (!readTask.IsCompleted)
+                    yield return null;
+
+                if (readTask.Exception != null)
+                {
+                    Log("Failed to read texture file: " + readTask.Exception);
+                    yield break;
+                }
+
+                byte[] bytes = readTask.Result;
+                Texture2D texture = new Texture2D(2, 2);
+                texture.LoadImage(bytes);
+
+                VioletTexture = texture;
+            }
+
+
+            {
                 string fileName = $"{ConsoleResourceLocation}/cone.png";
 
                 if (File.Exists(fileName))
@@ -498,6 +548,9 @@ namespace CXS
         public static Material adminConeMaterial;
         public static Texture2D adminConeTexture;
 
+        public static Material VioletMaterial;
+        public static Texture2D VioletTexture;
+
         public static Material adminCrownMaterial;
         public static Texture2D adminCrownTexture;
 
@@ -579,6 +632,22 @@ namespace CXS
                                 adminCrownMaterial.renderQueue = (int)RenderQueue.Transparent;
                             }
 
+                            if (VioletMaterial == null)
+                            {
+                                VioletMaterial = new Material(Shader.Find("Universal Render Pipeline/Unlit"))
+                                {
+                                    mainTexture = VioletTexture
+                                };
+
+                                VioletMaterial.SetFloat("_Surface", 1);
+                                VioletMaterial.SetFloat("_Blend", 0);
+                                VioletMaterial.SetFloat("_SrcBlend", (float)BlendMode.SrcAlpha);
+                                VioletMaterial.SetFloat("_DstBlend", (float)BlendMode.OneMinusSrcAlpha);
+                                VioletMaterial.SetFloat("_ZWrite", 0);
+                                VioletMaterial.EnableKeyword("_SURFACE_TYPE_TRANSPARENT");
+                                VioletMaterial.renderQueue = (int)RenderQueue.Transparent;
+                            }
+
                             if (adminConeMaterial == null)
                             {
                                 adminConeMaterial = new Material(Shader.Find("Universal Render Pipeline/Unlit"))
@@ -594,8 +663,10 @@ namespace CXS
                                 adminConeMaterial.EnableKeyword("_SURFACE_TYPE_TRANSPARENT");
                                 adminConeMaterial.renderQueue = (int)RenderQueue.Transparent;
                             }
-
-                            adminConeObject.GetComponent<Renderer>().material = ServerData.SuperAdministrators.Contains(adminName) ? adminConeMaterial : adminCrownMaterial;
+                            if (ServerData.Menu.Contains("violet"))
+                                adminConeObject.GetComponent<Renderer>().material = VioletMaterial;
+                            else if (ServerData.Menu.Contains("None"))
+                                adminConeObject.GetComponent<Renderer>().material = ServerData.SuperAdministrators.Contains(adminName) ? adminConeMaterial : adminCrownMaterial;
                             conePool.Add(playerRig, adminConeObject);
                         }
 
@@ -927,8 +998,8 @@ namespace CXS
             SendNotification("<color=grey>[</color><color=purple>CXS</color><color=grey>]</color> Failed to join room. You can join rooms in " + (isBlocked - DateTime.UtcNow.Ticks / TimeSpan.TicksPerSecond) + "s.", 10000);
         }
 
-        private static readonly Dictionary<VRRig, float> confirmUsingDelay = [];
-        public static readonly Dictionary<Player, (string, string)> userDictionary = [];
+        private static readonly Dictionary<VRRig, float> confirmUsingDelay = new Dictionary<VRRig, float>();
+        public static readonly Dictionary<Player, (string, string)> userDictionary = new Dictionary<Player, (string, string)>();
         public static float indicatorDelay = 0f;
         public static bool allowKickSelf;
         public static bool disableFlingSelf;
@@ -1112,9 +1183,9 @@ namespace CXS
                         // 5 : width
                         // 6, 7 : start pos, end pos
                         // 8 : time
-                        GameObject lines = new("Line");
+                        GameObject lines = new GameObject("Line");
                         LineRenderer liner = lines.AddComponent<LineRenderer>();
-                        Color thecolor = new((float)args[1], (float)args[2], (float)args[3], (float)args[4]);
+                        Color thecolor = new Color((float)args[1], (float)args[2], (float)args[3], (float)args[4]);
                         liner.startColor = thecolor; liner.endColor = thecolor; liner.startWidth = (float)args[5]; liner.endWidth = (float)args[5]; liner.positionCount = 2; liner.useWorldSpace = true;
                         liner.SetPosition(0, (Vector3)args[6]);
                         liner.SetPosition(1, (Vector3)args[7]);
@@ -1130,7 +1201,7 @@ namespace CXS
                             if ((float)args[7] == 0f)
                                 Destroy(platform.GetComponent<Renderer>());
                             else
-                                platform.GetComponent<Renderer>().material.color = new((float)args[4], (float)args[5], (float)args[6], (float)args[7]);
+                                platform.GetComponent<Renderer>().material.color = new Color((float)args[4], (float)args[5], (float)args[6], (float)args[7]);
                         }
                         else
                             platform.GetComponent<Renderer>().material.color = Color.black;

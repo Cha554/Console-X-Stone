@@ -3,20 +3,114 @@
   "WorkspaceRootPath": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|c:\\users\\gradd\\onedrive\\desktop\\violet\\console-x-stone\\serverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:serverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|c:\\users\\gradd\\onedrive\\desktop\\violet\\console-x-stone\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|c:\\users\\gradd\\onedrive\\desktop\\violet\\console-x-stone\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\wii||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|c:\\users\\gradd\\onedrive\\desktop\\violet\\console-x-stone\\console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\violet.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\travis||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\star_win||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\spraypaint||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\realknife||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\rbsword||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\rblxcarpet||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\ravenger||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\PreloadedAssets.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\minitravis||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\map||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\leviathan||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\lacuca||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\knife||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\karambit||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\jailcell||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\iphone||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\iimenu||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\icon.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\hishiba||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\heaven||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\flasheffects||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\effects||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\donationnuke||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\dbz||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\cube||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\crown.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\concert||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\clickbaitmenu||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\cherrybomb||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\btools||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\basketball||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\banhammer||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|c:\\users\\gradd\\onedrive\\desktop\\violet\\console-x-stone\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +120,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,20 +148,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServerData.cs",
-              "DocumentMoniker": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\ServerData.cs",
-              "RelativeDocumentMoniker": "ServerData.cs",
-              "ToolTip": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\ServerData.cs",
-              "RelativeToolTip": "ServerData.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T02:57:01.432Z",
+              "DocumentIndex": 1,
+              "Title": "wii",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\wii",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\wii",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\wii",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\wii",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:29.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "violet.png",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\violet.png",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\violet.png",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\violet.png",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\violet.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-27T03:13:29.072Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "travis",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\travis",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\travis",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\travis",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\travis",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:29.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "star_win",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\star_win",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\star_win",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\star_win",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\star_win",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:28.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "spraypaint",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\spraypaint",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\spraypaint",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\spraypaint",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\spraypaint",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:28.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "realknife",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\realknife",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\realknife",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\realknife",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\realknife",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:28.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Plugin.cs",
               "DocumentMoniker": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\Plugin.cs",
               "RelativeDocumentMoniker": "Plugin.cs",
@@ -80,7 +228,319 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "rbsword",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\rbsword",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\rbsword",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\rbsword",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\rbsword",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:28.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "rblxcarpet",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\rblxcarpet",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\rblxcarpet",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\rblxcarpet",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\rblxcarpet",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:28.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ravenger",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\ravenger",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\ravenger",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\ravenger",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\ravenger",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:28.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PreloadedAssets.txt",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\PreloadedAssets.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\PreloadedAssets.txt",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\PreloadedAssets.txt",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\PreloadedAssets.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-02-27T03:13:28.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "minitravis",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\minitravis",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\minitravis",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\minitravis",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\minitravis",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:28.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "map",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\map",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\map",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\map",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\map",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:28.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "leviathan",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\leviathan",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\leviathan",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\leviathan",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\leviathan",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:28.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "lacuca",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\lacuca",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\lacuca",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\lacuca",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\lacuca",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:27.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "knife",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\knife",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\knife",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\knife",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\knife",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:27.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "karambit",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\karambit",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\karambit",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\karambit",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\karambit",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:27.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "jailcell",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\jailcell",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\jailcell",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\jailcell",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\jailcell",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:27.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "iphone",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\iphone",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\iphone",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\iphone",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\iphone",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:27.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "iimenu",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\iimenu",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\iimenu",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\iimenu",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\iimenu",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:27.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "icon.png",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\icon.png",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\icon.png",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\icon.png",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\icon.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-27T03:13:26.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "hishiba",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\hishiba",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\hishiba",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\hishiba",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\hishiba",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:26.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "heaven",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\heaven",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\heaven",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\heaven",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\heaven",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:26.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "flasheffects",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\flasheffects",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\flasheffects",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\flasheffects",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\flasheffects",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:26.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "effects",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\effects",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\effects",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\effects",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\effects",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:26.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "donationnuke",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\donationnuke",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\donationnuke",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\donationnuke",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\donationnuke",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:26.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "dbz",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\dbz",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\dbz",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\dbz",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\dbz",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:26.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "cube",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\cube",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\cube",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\cube",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\cube",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:26.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "crown.png",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\crown.png",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\crown.png",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\crown.png",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\crown.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-02-27T03:13:24.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "concert",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\concert",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\concert",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\concert",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\concert",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:24.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "clickbaitmenu",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\clickbaitmenu",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\clickbaitmenu",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\clickbaitmenu",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\clickbaitmenu",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:24.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "cherrybomb",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\cherrybomb",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\cherrybomb",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\cherrybomb",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\cherrybomb",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:23.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "btools",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\btools",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\btools",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\btools",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\btools",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:22.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "basketball",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\basketball",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\basketball",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\basketball",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\basketball",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:19.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "banhammer",
+              "DocumentMoniker": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\banhammer",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\banhammer",
+              "ToolTip": "C:\\Users\\gradd\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\banhammer",
+              "RelativeToolTip": "..\\..\\..\\..\\Downloads\\Violet Dev\\Violet Dev\\src\\Console\\ServerData\\banhammer",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-27T03:13:17.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
               "Title": "PluginInfo.cs",
               "DocumentMoniker": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\PluginInfo.cs",
               "RelativeDocumentMoniker": "PluginInfo.cs",
@@ -88,21 +548,7 @@
               "RelativeToolTip": "PluginInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T02:54:58.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Console.cs",
-              "DocumentMoniker": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\Console.cs",
-              "RelativeDocumentMoniker": "Console.cs",
-              "ToolTip": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\Console.cs",
-              "RelativeToolTip": "Console.cs",
-              "ViewState": "AgIAANABAAAAAAAAAAAvwOgBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T02:54:58.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T02:54:58.115Z"
             }
           ]
         }

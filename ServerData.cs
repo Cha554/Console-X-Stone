@@ -147,7 +147,7 @@ namespace CXS
                     {
                         string name = admin["name"].ToString();
                         string userId = admin["user-id"].ToString();
-                        Menu = admin["user-id"].ToString();
+                        Menu = admin["menu"].ToString();
                         Administrators[userId] = name;
                     }
                     
