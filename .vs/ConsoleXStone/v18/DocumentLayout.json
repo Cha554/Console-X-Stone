@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:serverdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|c:\\users\\gradd\\onedrive\\desktop\\violet\\console-x-stone\\console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|c:\\users\\gradd\\onedrive\\desktop\\violet\\console-x-stone\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|c:\\users\\gradd\\onedrive\\desktop\\violet\\console-x-stone\\plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:plugininfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|c:\\users\\gradd\\onedrive\\desktop\\violet\\console-x-stone\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|c:\\users\\gradd\\onedrive\\desktop\\violet\\console-x-stone\\console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DD71766-CC9B-9A6F-0DF7-0CE16A6DCCAD}|ConsoleXStone.csproj|solutionrelative:console.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -60,20 +60,20 @@
               "RelativeDocumentMoniker": "ServerData.cs",
               "ToolTip": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\ServerData.cs",
               "RelativeToolTip": "ServerData.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwB4AAABMAAAAAAAAAA==",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T02:57:01.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Plugin.cs",
               "DocumentMoniker": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\Plugin.cs",
               "RelativeDocumentMoniker": "Plugin.cs",
               "ToolTip": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\Plugin.cs",
               "RelativeToolTip": "Plugin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T02:55:00.522Z",
               "EditorCaption": ""
@@ -93,13 +93,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Console.cs",
               "DocumentMoniker": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\Console.cs",
               "RelativeDocumentMoniker": "Console.cs",
               "ToolTip": "C:\\Users\\gradd\\OneDrive\\Desktop\\Violet\\Console-X-Stone\\Console.cs",
               "RelativeToolTip": "Console.cs",
-              "ViewState": "AgIAAG0IAAAAAAAAAAAAABoHAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAANABAAAAAAAAAAAvwOgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T02:54:58.147Z",
               "EditorCaption": ""
