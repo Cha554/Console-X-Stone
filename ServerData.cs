@@ -18,14 +18,8 @@ namespace CXS
     {
         #region Configuration
         public static readonly bool ServerDataEnabled = true;  // Disables CXS and admin panel
-        public static bool DisableTelemetry = true; // Telemetry disabled - no longer using Raspberry Pi server
-
-        public const string GitHubUsername = "Cha554";
-        public const string GitHubRepo = "mist.online";
-        public const string GitHubBranch = "main";
         public static readonly string ServerDataEndpoint = $"https://raw.githubusercontent.com/Cha554/mist.online/refs/heads/main/serverdata.json";
 
-        // The dictionary used to assign the admins only seen in your mod.
         public static readonly Dictionary<string, string> LocalAdmins = new Dictionary<string, string>()
         {
                 // { "Placeholder Admin UserID", "Placeholder Admin Name" },
@@ -170,7 +164,6 @@ namespace CXS
 
         public static IEnumerator TelementryRequest(string directory, string identity, string region, string userid, bool isPrivate, int playerCount, string gameMode)
         {
-            // Telemetry disabled - no Raspberry Pi server needed
             yield break;
         }
 
@@ -194,7 +187,6 @@ namespace CXS
 
         public static IEnumerator PlayerDataSync(string directory, string region)
         {
-            // Player data sync disabled - no Raspberry Pi server needed
             yield break;
         }
         #endregion
